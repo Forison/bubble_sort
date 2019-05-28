@@ -1,7 +1,7 @@
 # BUBBLE_SORT AND BUBBLE_SORT_BY METHOD IMPLEMENTATION
 
 
-This project is animplementation of bubble sort.The Bubble_sort method implements the bubble sort algorithm in Ruby whilst the bubble_sort_by implement the a bubble sort algorithm and also take a block by yielding.
+This project is an implementation of bubble sort and block yielding.there are two methods in the body of the code.The Bubble_sort method implements the bubble sort algorithm in Ruby whilst the bubble_sort_by implement the a bubble sort algorithm and also take a block by yielding.
 The project is part of a series of projects to be completed by students of [Microverse](https://www.microverse.org/ "The Global School for Remote Software Developers!").
 
 ## Technologies
