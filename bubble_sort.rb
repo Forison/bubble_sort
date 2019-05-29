@@ -21,7 +21,7 @@ def bubble_sort_by(arr)
   if block_given?
     loop do
       swapped = false
-      (n-1).times do 
+      (n-1).times do |i| 
         if yield(arr[i], arr[i+1]) > 0
             swapped = true
             arr[i], arr[i+1] = arr[i+1], arr[i]
@@ -34,4 +34,4 @@ def bubble_sort_by(arr)
 end
 
 r = ["hi", "hey", "hello"]
-print bubble_sort_by(r)
+print bubble_sort_by(r) {|left, right| right.length <=> left.length}
